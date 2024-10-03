@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 import java.util.Objects;
 public class Pass {
@@ -5,7 +7,6 @@ public class Pass {
         Scanner scanner = new Scanner(System.in);
         String password;
         int intentos = 0;
-
         do {
             System.out.println("Ingrese la contraseña");
             password = scanner.nextLine();
